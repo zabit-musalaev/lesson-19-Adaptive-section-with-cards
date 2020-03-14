@@ -1,13 +1,15 @@
 .design-project
   &--black
     position: relative
+    background: $dark
     &::before
       content: ''
       position: absolute
-      background: $dark 50%
       width: 100%
-      bottom: 0
-      height: 50%  
+      height: 50%
+      top: 0
+      left: 0
+      background: $light
 .section
   &__subtitle
     margin: 0 auto
